@@ -923,7 +923,7 @@ a.read-more {
 
 .food-menu-details p span {
     display: inline-block;
-    width: 30%;
+    /* width: 30%; */
 }
 
 .food-menu-details h3 span {
