@@ -246,7 +246,7 @@ jQuery(document).on('ready', function ($) {
             }
         }
     });
-    
+
     /*---------------------------
         BMENU SLIDER
     -----------------------------*/
@@ -272,13 +272,13 @@ jQuery(document).on('ready', function ($) {
         }
     });
 
-    
+
     /*----------------------------
         INSTAGRAM FEED ACTIVE
     -----------------------------*/
     var feed = new Instafeed({
         get: 'user',
-        userId: 3287251940,
+        userId: 'albainrestaurant',
         accessToken: '3287251940.4ac71b3.d88be01ca9c94e2e8a2d923fe0a5169e',
         target: 'instagram',
         limit: 10, //max 60 images..
@@ -292,13 +292,13 @@ jQuery(document).on('ready', function ($) {
         }
     });
     feed.run();
-    
-    
+
+
     /*--------------------------
         ACTIVE WOW JS
     ----------------------------*/
     new WOW().init();
-    
+
 
 }(jQuery));
 
